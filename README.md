@@ -46,10 +46,15 @@ data-warehouse-project/
 │
 ├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
 │
-├── docs/                               # Project documentation and architecture details
-│   ├── etl.drawio                      # Draw.io file shows all different techniquies and methods of ETL
-│   ├── data_architecture.drawio        # Draw.io file shows the project's architecture
-│   ├── naming-conventions.md           # Consistent naming guidelines for tables, columns, and files
+├── docs/                               
+│   ├── data_architecture.png           
+|   ├── data_catalog.md
+|   ├── data_flow.png
+|   ├── data_integration.png
+|   ├── data_layers.pdf
+|   ├── data_model.png
+|   ├── placeholder
+│   ├── naming-conventions.md           
 │
 ├── scripts/                            # SQL scripts for ETL and transformations
 │   ├── bronze/                         # Scripts for extracting and loading raw data
